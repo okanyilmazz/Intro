@@ -11,7 +11,7 @@
 int number1 = 20;
 int number2 = 100;
 
-var result2 = Add3(ref number1, number2);
+var result2 = Add3(out number1, number2);
 Console.WriteLine(result2);
 Console.WriteLine(number1);
 
@@ -34,7 +34,8 @@ static int Add2(int number1 = 20, int number2 = 30)
 
 // ref, Değer tiplerini referans tip gibi kullanmaya yarar
 
-static int Add3(ref int number1, int number2)
+// out, method içerisinde bir defa set edilmesi gerekir.
+static int Add3(out int number1, int number2)
 {
     number1 = 30;
     return number1 + number2;
