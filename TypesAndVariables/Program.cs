@@ -37,3 +37,9 @@ bool condition = true;
 char character = 'A';
 Console.WriteLine("Character is : {0}", character);
 Console.WriteLine("Character is : {0}", (int)character);
+
+//Ondalıklı sayıları tutar
+// 64 bit yer kaplar
+
+double number5 = 10.4;
+Console.WriteLine(number5);
