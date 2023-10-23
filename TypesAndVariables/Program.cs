@@ -52,3 +52,20 @@ Console.WriteLine("Number5 is {0}", number5);
 
 decimal number6 = 10.4m;
 Console.WriteLine("Number6 is {0}", number6);
+
+
+
+Console.WriteLine(Days.Friday);
+
+// Tip dönüşümleri önemlidir.
+
+Console.WriteLine((int)Days.Friday);
+
+
+// Başlangıç değerleri 0'dan başlar ve değiştirilebilir.
+// Enum sabitleri denir.
+
+enum Days
+{
+    Monday = 10, Tuesday = 20, Wednesday, Thursday, Friday, Saturday, Sunday
+}
