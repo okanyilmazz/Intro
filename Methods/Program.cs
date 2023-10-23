@@ -8,12 +8,15 @@
 //var defaultResult = Add2();
 //Console.WriteLine(defaultResult);
 
-int number1 = 20;
-int number2 = 100;
+//int number1 = 20;
+//int number2 = 100;
 
-var result2 = Add3(out number1, number2);
-Console.WriteLine(result2);
-Console.WriteLine(number1);
+//var result2 = Add3(out number1, number2);
+//Console.WriteLine(result2);
+//Console.WriteLine(number1);
+
+Console.WriteLine(Multiply(2, 4));
+Console.WriteLine(Multiply(2, 4, 5));
 
 Console.ReadLine();
 
@@ -39,4 +42,14 @@ static int Add3(out int number1, int number2)
 {
     number1 = 30;
     return number1 + number2;
+}
+
+static int Multiply(int number1, int number2)
+{
+    return number1 * number2;
+}
+
+static int Multiply(int number1, int number2, int number3)
+{
+    return number1 * number2 * number3;
 }
