@@ -30,3 +30,10 @@ Console.WriteLine("Number4 is {0}", number4);
 // karşılaştırma bloklarında kullanılır
 
 bool condition = true;
+
+//int değerine çevrilebilir.
+//Dönüşüm esnasında ASCII sayısal karşılığını bize verir
+
+char character = 'A';
+Console.WriteLine("Character is : {0}", character);
+Console.WriteLine("Character is : {0}", (int)character);
