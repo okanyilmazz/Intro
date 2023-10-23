@@ -54,12 +54,21 @@ decimal number6 = 10.4m;
 Console.WriteLine("Number6 is {0}", number6);
 
 
-
+// Tip dönüşümleri Enum için önemlidir.
 Console.WriteLine(Days.Friday);
-
-// Tip dönüşümleri önemlidir.
-
 Console.WriteLine((int)Days.Friday);
+
+
+
+// var keyword'u değişken değildir ama değişken tutmak için kullanılır.
+
+var number7 = 10;
+number7 = 'A';
+
+// number7 = "A"; string olduğu için ve başlangıçta int değer verdiğimiz için kabul etmeyecektir.
+Console.WriteLine("Number7 is {0}", number7);
+
+
 
 
 // Başlangıç değerleri 0'dan başlar ve değiştirilebilir.
