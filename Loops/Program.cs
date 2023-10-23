@@ -1,11 +1,27 @@
-﻿for (int i = 2; i <= 100; i += 2)
+﻿int number = 100;
+while (number >= 0)
 {
-    Console.WriteLine(i);
+    Console.WriteLine(number);
+    number--;
 }
+Console.WriteLine("Now number is {0}", number);
 
-for (int i = 100; i >= 0; i -= 2)
+
+
+//ForLoop();
+
+
+static void ForLoop()
 {
-    Console.WriteLine(i);
+    for (int i = 2; i <= 100; i += 2)
+    {
+        Console.WriteLine(i);
+    }
+
+    for (int i = 100; i >= 0; i -= 2)
+    {
+        Console.WriteLine(i);
+    }
+    Console.WriteLine("Finished!");
+    Console.ReadLine();
 }
-Console.WriteLine("Finished!");
-Console.ReadLine();
