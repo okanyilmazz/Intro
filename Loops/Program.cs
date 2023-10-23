@@ -1,13 +1,14 @@
-﻿int number = 100;
-while (number >= 0)
+﻿// Şart sağlanmasa bile 1 kere işlemi gerçekleştirir.
+
+int number = 10;
+do
 {
     Console.WriteLine(number);
     number--;
-}
-Console.WriteLine("Now number is {0}", number);
+} while (number >= 11);
 
 
-
+//WhileLoop();
 //ForLoop();
 
 
@@ -24,4 +25,15 @@ static void ForLoop()
     }
     Console.WriteLine("Finished!");
     Console.ReadLine();
+}
+
+static void WhileLoop()
+{
+    int number = 100;
+    while (number >= 0)
+    {
+        Console.WriteLine(number);
+        number--;
+    }
+    Console.WriteLine("Now number is {0}", number);
 }
