@@ -12,4 +12,9 @@ else
     Console.WriteLine("Number is not 10");
 }
 
+
+// Single Line
+//                               True           : False
+
+Console.WriteLine(number == 10 ? "Number is 10" : "Number is not 10");
 Console.ReadLine();
