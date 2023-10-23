@@ -24,3 +24,9 @@ Console.WriteLine("Number3 is {0}", number3);
 
 byte number4 = 255;
 Console.WriteLine("Number4 is {0}", number4);
+
+// true yada false değerini tutar.
+// mantıksal veri tipidir.
+// karşılaştırma bloklarında kullanılır
+
+bool condition = true;
