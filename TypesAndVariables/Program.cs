@@ -11,3 +11,9 @@ Console.WriteLine("Number1 is {0}", number1);
 
 long number2 = 214748347;
 Console.WriteLine("Number1 is {0}", number2);
+
+
+// -32768 ~ 32767 aralığındadır.
+// 16 bit yer kaplar
+short number3 = 32767;
+Console.WriteLine("Number3 is {0}", number3);
