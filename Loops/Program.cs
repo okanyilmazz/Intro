@@ -1,13 +1,10 @@
-﻿// Şart sağlanmasa bile 1 kere işlemi gerçekleştirir.
-
-int number = 10;
-do
+﻿string[] students = new string[3] { "Engin", "Derin", "Salih" };
+foreach (var student in students)
 {
-    Console.WriteLine(number);
-    number--;
-} while (number >= 11);
+    Console.WriteLine(student);
+}
 
-
+//DoWhileLoop();
 //WhileLoop();
 //ForLoop();
 
@@ -36,4 +33,16 @@ static void WhileLoop()
         number--;
     }
     Console.WriteLine("Now number is {0}", number);
+}
+
+static void DoWhileLoop()
+{
+    // Şart sağlanmasa bile 1 kere işlemi gerçekleştirir.
+
+    int number = 10;
+    do
+    {
+        Console.WriteLine(number);
+        number--;
+    } while (number >= 11);
 }
